@@ -13,8 +13,8 @@
       "src.elf",
       "main.c"
     ],
-    "directory": "/home/patryk/Downloads/MacOS/AVR",
-    "file": "/home/patryk/Downloads/MacOS/AVR/main.c",
-    "output": "/home/patryk/Downloads/MacOS/AVR/src.elf"
+    "directory": "/home/patryk/projects/iot/avr",
+    "file": "/home/patryk/projects/iot/avr/main.c",
+    "output": "/home/patryk/projects/iot/avr/src.elf"
   }
 ]

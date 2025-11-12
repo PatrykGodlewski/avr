@@ -1,12 +1,21 @@
+#define ENABLE_BASIC
 #include "framework.h"
 
 int main(void) {
-  DDRB |= (1 << PORTB5);
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
 
   while (1) {
-    PORTB |= (1 << PORTB5);
+    // B5
+    digitalWrite(13, HIGH);
     delay(500);
-    PORTB &= ~(1 << PORTB5);
+    digitalWrite(13, LOW);
+    delay(500);
+
+    // B4
+    digitalWrite(12, HIGH);
+    delay(500);
+    digitalWrite(12, LOW);
     delay(500);
   }
 
